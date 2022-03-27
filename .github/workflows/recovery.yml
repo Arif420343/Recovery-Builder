@@ -15,7 +15,7 @@ on:
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni -b twrp-10.0-deprecated
   DEVICE: ATOM
-  DT_LINK: https://github.com/twrpdtgen/android_device_symphony_ATOM
+  DT_LINK: https://github.com/Arif420343/android_device_symphony_ATOM
   DT_PATH: device/symphony/ATOM
   TARGET: recoveryimage
   TZ: Asia/manila
