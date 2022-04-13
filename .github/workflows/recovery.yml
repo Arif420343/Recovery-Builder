@@ -14,9 +14,9 @@ on:
 
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni
-  DEVICE: CPH1861
-  DT_LINK: https://github.com/CPH1859/android_device_CPH1861_TWRP
-  DT_PATH: device/oppo/CPH1861
+  DEVICE: RMX2020
+  DT_LINK: https://github.com/SIDDK24/TWRP_rmx2020
+  DT_PATH: device/Realme/RMX2020
   TARGET: recoveryimage
   TZ: Asia/Kolkata
 
@@ -62,7 +62,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
          with:
           tag_name: v0.1
-          name: F2FS test
+          name: RMX2020-TWRP
           files: | 
-            work/out/target/product/CPH1861/recovery.img
+            work/out/target/product/RMX2020/recovery.img
             
