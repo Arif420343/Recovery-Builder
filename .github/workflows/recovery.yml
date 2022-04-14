@@ -14,8 +14,8 @@ on:
 
 env:
   MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni -b twrp-10.0-deprecated
-  DEVICE: RMX2020
-  DT_LINK: https://github.com/SIDDK24/TWRP_rmx2020
+  DEVICE: ATOM
+  DT_LINK: https://github.com/Arif420343/android_device_symphony_ATOM
   DT_PATH: device/symphony/ATOM
   TARGET: recoveryimage
   TZ: Asia/manila
@@ -63,6 +63,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
          with:
           tag_name: TWRP_10.0
-          name: TWRP-RMX2020
+          name: TWRP-ATOM
           files: | 
-            work/out/target/product/RMX2020/recovery.img
+            work/out/target/product/ATOM/recovery.img
