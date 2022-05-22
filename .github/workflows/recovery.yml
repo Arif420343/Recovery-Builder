@@ -15,7 +15,7 @@ on:
 env:
   MANIFEST:https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni
   DEVICE: ATOM
-  DT_LINK: https://github.com/twrpdtgen/android_device_symphony_ATOM
+  DT_LINK: https://github.com/twrpdtgen/android_device_tecno_TECNO-KG8
   DT_PATH: device/symphony/ATOM
   TARGET: recoveryimage
   TZ: Asia/manila
